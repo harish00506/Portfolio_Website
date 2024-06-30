@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --primary-color: #fc3a79;
+    --secondary-color: #fe572e;
+    --black-color: #261f22;
+    --light-color: #f3f2f1;
+    --brand-gradient: linear-gradient(to right,#fe572e,#ff4c80);
+
+}
+*{
+    font-family: "RaleWay";
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Montserrat", sans-serif;
+
+}
+h1,h2,h4,h6{
+    font-weight: bold;
+}
+h3{
+    font-weight: lighter;
+}
+.primary-color{
+    color: var(--primary-color);
+    
+}
